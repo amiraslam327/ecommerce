@@ -261,10 +261,6 @@ lib/
 - Promo code system
 - Address management with location services
 
-## 📄 License
-
-This project is private and not intended for public distribution.
-
 ## 👥 Support
 
 For issues or questions, please contact the development team.
