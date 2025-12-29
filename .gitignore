@@ -1,0 +1,113 @@
+# ===============================
+# OS / System
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# IDEs / Editors
+# ===============================
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+
+# ===============================
+# Dart / Flutter
+# ===============================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+build/
+coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Flutter build artifacts (extra safety)
+*.dSYM
+*.apk
+*.aab
+*.ipa
+
+# ===============================
+# Android
+# ===============================
+android/.gradle/
+android/local.properties
+android/**/GeneratedPluginRegistrant.java
+
+# Android Studio build variants
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# Signing / keystore (NEVER commit)
+*.jks
+*.keystore
+android/key.properties
+
+# ===============================
+# iOS / Xcode
+# ===============================
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Runner/GeneratedPluginRegistrant.*
+ios/Runner.xcworkspace/
+ios/DerivedData/
+*.xcuserstate
+*.xcuserdata
+*.moved-aside
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xccheckout
+
+# ===============================
+# Firebase (Choose your policy)
+# ===============================
+
+# Option A (SAFER for public repos): ignore Firebase config files
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Option B (common for private repos): comment the two lines above
+# so Firebase config is committed and builds work out of the box.
+
+# Firebase local tooling / emulators / logs
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
+.emulators/
+firebase.json.bak
+.firebaserc.bak
+
+# ===============================
+# Env / Secrets
+# ===============================
+.env
+.env.*
+*.pem
+*.key
+
+# ===============================
+# Crashlytics / Symbols
+# ===============================
+*.symbols
+*.map.json
+
+# ===============================
+# Misc
+# ===============================
+*.log
+.history/
+.svn/
