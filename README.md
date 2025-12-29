@@ -89,36 +89,10 @@ lib/
 └── main.dart                 # App entry point
 ```
 
-## 🔧 Technologies & Dependencies
+## 📸 App Screenshots
 
-### Core
-- **Flutter SDK**: ^3.8.1
-- **Dart**: Latest stable version
 
-### Firebase
-- `firebase_core: ^3.6.0` - Firebase initialization
-- `firebase_auth: ^5.3.1` - User authentication
-- `cloud_firestore: ^5.4.4` - NoSQL database
-- `firebase_storage: ^12.3.4` - File storage
-
-### Local Storage
-- `sqflite: ^2.3.3+2` - SQLite database for cart and addresses
-- `path: ^1.9.0` - Path manipulation
-- `path_provider: ^2.1.1` - File system paths
-
-### UI & Design
-- `google_fonts: ^6.2.1` - Google Fonts integration
-- `flutter_iconpicker: ^4.0.3` - Icon selection
-- `image_picker: ^1.1.2` - Image selection from gallery
-
-### Location Services
-- `geolocator: ^14.0.2` - GPS location
-- `geocoding: ^4.0.0` - Address geocoding
-- `intl_phone_field: ^3.2.0` - Phone number input
-
-### Utilities
-- `url_launcher: ^6.2.5` - Open URLs
-- `share_plus: ^10.1.2` - Share functionality
+<p align="center"> <img src="screenshots/home.png" width="250"/> <img src="screenshots/store.png" width="250"/> <img src="screenshots/products.png" width="250"/> </p> <p align="center"> <img src="screenshots/orders.png" width="250"/> <img src="screenshots/order_management.png" width="250"/> <img src="screenshots/admin_dashboard.png" width="250"/> </p> <p align="center"> <img src="screenshots/admin_dashboard2.png" width="250"/> <img src="screenshots/wishlist.png" width="250"/> <img src="screenshots/checkout.png" width="250"/> <img src="screenshots/account.png" width="250"/> </p>
 
 ## 🚀 Getting Started
 
